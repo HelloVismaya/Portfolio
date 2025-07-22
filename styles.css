@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(46, 94, 99,0.712);
+    color: white;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+a:hover {
+    color: palegreen;
+    text-decoration: underline;
+}
+
+li{
+    padding: 5px;
+}
+
+button:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.card {
+    background-color: rgba(9, 32, 39, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow:hidden;
+    width:300px;
+}
+
+.card:hover {
+    color:rgb(164, 203, 236);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}   
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
